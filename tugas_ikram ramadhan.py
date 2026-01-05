@@ -1,15 +1,10 @@
+# ====== LATIHAN 1: Operasi String ======
+print("=" * 50)
+print("LATIHAN 1: Operasi String")
+print("=" * 50)
 
-## Tugas Pengantar Pemograman 
-Ini adalah tugas dari ikram ramadhan dengan dosen pengampu bapak Agung Nugroho, S.Kom., M.Kom
-P.s untuk file program di github saya satukan pak
+txt = 'Hello World'
 
-````shell
-Nama   : Ikram Ramadhan
-Nim    : 312110478
-Matkul : Pengantar Pemograman
-````
-## code dan output program Headling error
-````shell
 # 1. Hitung jumlah karakternya
 print(f"1. Jumlah karakter: {len(txt)}")
 
@@ -32,20 +27,14 @@ print(f"6. Ubah ke huruf kecil: {txt.lower()}")
 print(f"7. Ganti H dengan J: {txt.replace('H', 'J')}")
 
 print("\n")
-    
-````
-  * *Hasil output program:*
-    ![img 1](asset/1.png)
-    * *
 
-## code dan output program pengabaian exception
-````shell
+# ====== LATIHAN 2: String Formatting ======
 print("=" * 50)
 print("LATIHAN 2: String Formatting")
 print("=" * 50)
 
 umur = 23
-txt = 'Hello, nama saya Ikram Ramadhan, dan umur saya adalah {} tahun'
+txt = 'haii, saya Ikram Ramadhan, dan usia saya sekarang {} tahun'
 
 print(txt.format(umur))
 
@@ -218,10 +207,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-````
-  * *Hasil output program:*
-    ![img 1](asset/2.png)
-    * *
-  * *Hasil output program:*
-    ![img 1](asset/3.png)
-    * *
